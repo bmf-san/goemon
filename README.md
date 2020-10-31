@@ -1,10 +1,10 @@
-# go-dotenv
-[![CircleCI](https://circleci.com/gh/bmf-san/go-dotenv/tree/master.svg?style=svg)](https://circleci.com/gh/bmf-san/go-dotenv/tree/master)
+# goemon
+[![CircleCI](https://circleci.com/gh/bmf-san/goemon/tree/master.svg?style=svg)](https://circleci.com/gh/bmf-san/goemon/tree/master)
 
 A dotenv built with golang.
 
 # Installation
-`go get github.com/bmf-san/go-dotenv`
+`go get github.com/bmf-san/goemon`
 
 # Get Started
 Add a .env file in your project.
@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/bmf-san/go-dotenv"
+	"github.com/bmf-san/goemon"
 )
 
 func main() {
