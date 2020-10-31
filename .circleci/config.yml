@@ -1,7 +1,7 @@
 references: &golang-image
     docker:
-      - image: golang:1.13.0-alpine
-    working_directory: /go/src/github.com/go-dotenv
+      - image: circleci/golang:1.15.3
+    working_directory: /go/src/github.com/goemon
 version: 2
 jobs:
   download_go_modules:
